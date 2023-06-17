@@ -357,24 +357,30 @@ Most of the data is pretty simple, the cleaning is just:
 
 ![img]({{ site.baseurl }}/assets/img/jobs ct/per region.png)
 
+Most of the job openings are concentrated in the center region (centro) and western region (occidente), which are the regions where most of the companies are concentrated in the contry, specially in the industrial and manufacturing industry. 
+
     
 ![img]({{ site.baseurl }}/assets/img/jobs ct/Per state.png)
     
+When we analyze by states, most of the jobs come from Distrito capital and Carabobo from the center region, followed by Zulia which is the state with the biggest population in the country.
 
 ![img]({{ site.baseurl }}/assets/img/jobs ct/per category.png)
     
 
 
-The bar chart above clearly shows that the vast majority of job openings in Computrabajo are sales related (ventas), being a percentage of the total: Percentage of sales jobs: 39.29%
+The bar chart above clearly shows that the vast majority of job openings in Computrabajo are sales related (ventas), being a 39.29% percentage of the total job openings.
+
+##### Correlation between number of job openings and population
 
   
 ![img]({{ site.baseurl }}/assets/img/jobs ct/full corr.png)    
 
 
 We can see above that there is a slight correlation between the states population and the number of jobs openings, specially in the states with lower population. 
+As Distrito capital is where most of the companies exists in the country, it makes sense that this state has a big number of job openings despite its population. 
 Now, if we exclude those extreme values (from distrito capital) the results are like:
 
-
-    
+ 
 ![img]({{ site.baseurl }}/assets/img/jobs ct/better corr.png)    
 
+Without the values from distrito capital, it clearly shows that there is a high correlation between the states population and the number of job openings (0.83).
