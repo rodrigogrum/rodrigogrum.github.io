@@ -1,3 +1,11 @@
+---
+layout: post
+title: Jobs availables in Venezuela (Computrabajo)
+tags: [Project]
+author: Rodrigo Guevara
+comments : False
+---
+
 # Jobs availables in Venezuela
 
 The project was made mainly with the intention to learn two things:
