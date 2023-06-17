@@ -13,14 +13,15 @@ theme_settings :
     username : Rodrigo Guevara
     description : Accountant and learning data analysis!
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2022
+        end : 2022
+        experience : Accouting Intern
     skills : 
       - skill : Excel
       - skill: Tableau
-      - skill: PowerBI
-        #value : 85  # Percent value
+      - skill: Python
+      - skill: SQL
+  
         
   # Icons
   icons :
