@@ -120,18 +120,7 @@
       top: -55px;
       background-color: $theme-dark;
     }
-  }
-  #career {
-    @extend %page-padding;
-    margin-bottom: 55px;
-    margin-top: 55px;
-    .title {
-      margin-top: 15px;
-      color: $theme-dark;
-      font-size: 25px;
-      font-weight: 600;
-    }
-    .exper {
+      .exper {
       padding-top: 35px;
       ul.exper-list {
         margin-top: 25px;
@@ -225,15 +214,5 @@
           }
         }
       }
-      @keyframes progressAnimation {
-        from {
-          width: 40%;
-        }
-        to {
-          width: 100%;
-        }
-      }
-    }
   }
 }
-
