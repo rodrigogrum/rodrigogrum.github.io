@@ -15,6 +15,40 @@
   </ul>
 </div>
 <!-- Tag Navigation -->
+
+<!-- Experience -->
+
+<section id="career" class="row">
+    <article class="exper col-12 col-md-6">
+      <p class="title">EXPERIENCE</p>
+      <ul class="exper-list">
+        {% for exp in  profile.experience %}
+        <li class="meta">
+          <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
+          <p class="description">{{ exp.experience }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+    <article class="skills col-12 col-md-6">
+      <p class="title">SKILLS</p>
+      <ul class="skill-list">
+        {% for _ in profile.skills %}
+        <li class="skill">
+          <p class="name">{{ _.skill }}</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: {{ _.value }}%">
+              <div class="progress-value">{{ _.value }}%</div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </section>
+
+<!-- Tags -->
+
 <div id="tag-wrap">
   <a href="{{ site.url }}/tags">
     <p class="title">TAGS</p>
