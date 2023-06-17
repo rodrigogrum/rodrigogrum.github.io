@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Jobs availables in Venezuela (Computrabajo)
-tags: [Project]
+subtitle: How many jobs are availables in Venezuela via Computrabajo
+tags: [Project, Web Scraping]
 author: Rodrigo Guevara
 comments : False
 ---
