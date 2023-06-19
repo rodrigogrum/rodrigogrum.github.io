@@ -48,32 +48,12 @@
     .description{
         font-size : 0.95rem;
     }
-    #proj-wrap{
-        .proj-title {
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
-        .meta, .meta span{
-            color: rgba(0,0,0,0.5);
-            font-size: 0.75rem;
-            margin : 3px 0 10px;
-        }
-        .proj-hr{
-            width: 100px;
-            border : 0.5px solid rgba(0,0,0,0.1);
-        }
-        .proj-content:hover *{
-            color: $theme-dark;
-        }
-    }
   #career {
-
       .exper {
       padding-top: 35px;
       ul.exper-list {
         margin-top: 25px;
         margin-left: 3%;
-        border-left: 3px solid $theme-color;
         list-style-type: none;
         li.meta {
           position: relative;
