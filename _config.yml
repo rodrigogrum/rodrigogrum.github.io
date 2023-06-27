@@ -18,7 +18,6 @@ theme_settings :
         experience : Accounting Intern
     skills : 
       - skill : Excel
-      - skill: Tableau
       - skill: Python
       - skill: SQL
   
