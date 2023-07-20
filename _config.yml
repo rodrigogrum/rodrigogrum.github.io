@@ -9,9 +9,9 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/photo.jpg
     username : Rodrigo Guevara
-    description : Accountant and learning data analysis!
+    description : Accountant and data enthusiast
     experience :
       - start : 2022
         end : 2022
